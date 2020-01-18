@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table of your wish</title>
+<style>
+body{
+    background-image: url(ki.jpg);
+    background-size: cover;
+}
+h1{color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 5rem;
+    border-bottom: 5px solid black;
+    padding-top: 2rem;
+cursor: pointer;}
+.buffer{
+    height: 10em;
+}
+.ms{color: black;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    font-weight: bold;
+    font-size: 2rem ;
+    cursor: pointer;
+}
+.ms:hover{transition: 1s;
+ transform: scale(1.1);
+ background-color: rgb(238, 216, 216);
+}
+</style>  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+    <body>
+<div class="container  d-flex align-items-center h-100">
+    <div class="row">
+ <header class="text-center col-12">
+     <h1 class="animated heartBeat">This is the required table</h1>
+ </header>
+ <div class="buffer"></div>
+ <section class="text-center col-12 ms">
+<script>
+alert("this page is for finding table of a number");
+var x=prompt("enter a number",5);
+for(i=1;i<=10;i++)
+{
+document.write(x+"x"+i+"="+i*x+"<br/>");}
+</script>    
+</section>
+</div>
+</div>
+</body>
+</html>
